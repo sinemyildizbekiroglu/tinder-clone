@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <>
-      <Nav minimal={false} />
+      <Nav minimal={false} authToken={authToken} />
       <div className='home'>
         <h1>Swipe Right®</h1>
         <button className='primary-button' onClick={handleClick}>
